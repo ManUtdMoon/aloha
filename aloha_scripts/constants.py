@@ -1,9 +1,9 @@
 ### Task parameters
 
-DATA_DIR = '<put your data dir here>'
+DATA_DIR = '/home/xuhang/ACT/data_training/aloha_insertion/'
 TASK_CONFIGS = {
-    'aloha_wear_shoe':{
-        'dataset_dir': DATA_DIR + '/aloha_wear_shoe',
+    'aloha_insert_10s':{
+        'dataset_dir': DATA_DIR + '/aloha_insert_10s',
         'num_episodes': 50,
         'episode_len': 1000,
         'camera_names': ['cam_high', 'cam_low', 'cam_left_wrist', 'cam_right_wrist']
