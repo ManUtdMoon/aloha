@@ -1,9 +1,27 @@
 ### Task parameters
 
-DATA_DIR = '/home/xuhang/ACT/data_training/aloha_insertion/'
+DATA_DIR = '/home/xuhang/ACT/data_training/'
 TASK_CONFIGS = {
     'aloha_insert_10s':{
         'dataset_dir': DATA_DIR + '/aloha_insert_10s',
+        'num_episodes': 50,
+        'episode_len': 1000,
+        'camera_names': ['cam_high', 'cam_low', 'cam_left_wrist', 'cam_right_wrist']
+    },
+    'aloha_insert_10s_random_init':{
+        'dataset_dir': DATA_DIR + '/aloha_insert_10s_random_init',
+        'num_episodes': 50,
+        'episode_len': 1000,
+        'camera_names': ['cam_high', 'cam_low', 'cam_left_wrist', 'cam_right_wrist']
+    },
+    'aloha_battery_allcam':{
+        'dataset_dir': DATA_DIR + '/aloha_battery_allcam',
+        'num_episodes': 50,
+        'episode_len': 1000,
+        'camera_names': ['cam_high', 'cam_low', 'cam_left_wrist', 'cam_right_wrist']
+    },
+    'aloha_battery':{
+        'dataset_dir': DATA_DIR + '/aloha_battery',
         'num_episodes': 50,
         'episode_len': 1000,
         'camera_names': ['cam_high', 'cam_low', 'cam_left_wrist', 'cam_right_wrist']
