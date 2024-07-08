@@ -26,6 +26,43 @@ TASK_CONFIGS = {
         'episode_len': 1000,
         'camera_names': ['cam_high', 'cam_low', 'cam_left_wrist', 'cam_right_wrist']
     },
+    'aloha_ziploc':{
+        'dataset_dir': DATA_DIR + '/aloha_ziploc',
+        'num_episodes': 50,
+        'episode_len': 1000,
+        'camera_names': ['cam_high', 'cam_low', 'cam_left_wrist', 'cam_right_wrist']
+    },
+    'aloha_towel':{
+        'dataset_dir': DATA_DIR + '/aloha_towel',
+        'num_episodes': 50,
+        'episode_len': 1000,
+        'camera_names': ['cam_high', 'cam_low', 'cam_left_wrist', 'cam_right_wrist']
+    },
+    'aloha_ram':{
+        'dataset_dir': DATA_DIR + 'aloha_ram',
+        'num_episodes': 50,
+        'episode_len': 800,
+        'camera_names': ['cam_high', 'cam_low', 'cam_left_wrist', 'cam_right_wrist']
+    },
+    'aloha_board_ram':{
+        'dataset_dir': DATA_DIR + 'aloha_board_ram',
+        'num_episodes': 50,
+        'episode_len': 800,
+        'camera_names': ['cam_high', 'cam_low', 'cam_left_wrist', 'cam_right_wrist']
+    },
+    'aloha_starbucks':{
+        'dataset_dir': DATA_DIR + 'aloha_starbucks',
+        'num_episodes': 50,
+        'episode_len': 800,
+        'camera_names': ['cam_high', 'cam_low', 'cam_left_wrist', 'cam_right_wrist']
+    },
+    'aloha_conveyor':{
+        'dataset_dir': DATA_DIR + 'aloha_conveyor',
+        'num_episodes': 50,
+        'episode_len': 500,
+        'camera_names': ['cam_high', 'cam_low', 'cam_left_wrist', 'cam_right_wrist']
+    },
+
 }
 
 ### ALOHA fixed constants
